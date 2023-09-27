@@ -1,0 +1,38 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    box-shadow: 2px 3px 2px 2px rgb(199, 183, 183);
+    
+}
+.img{
+    padding: 30px ;
+}
+.pdata{
+    position: relative;
+    top: 120px ;
+    right: 160px;
+    font-weight: bold;
+}
+.card-data{
+    position: relative;
+    top: -60px;
+    font-weight: 500;
+
+}
+.img:hover{
+    transform: scale(1.1);
+}
+.btn-primary{
+    width: 170px !important;
+    margin-left:70px;
+    position: relative;
+    top: 150px;
+}
+#main{
+    display: grid;
+    grid-template-columns: 100px 200px 200px 200px ;
+    grid-gap: 40px;
+
+}

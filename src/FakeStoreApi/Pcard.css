@@ -1,0 +1,36 @@
+.card{
+    height: 440px;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    transition: 1s;
+    position: relative;
+    top: 100px;
+    
+}
+img{
+    height: 200px;
+    width: 300px;
+    transform: scale(1.1);
+    
+}
+.main{
+    margin: 5px ;
+    margin-left: 3%;
+
+
+}
+.main:hover{
+    box-shadow: 2px 2px 1px 3px black;
+}
+img:hover{
+    padding: 10px;
+
+}
+button:hover{
+    background-color: rgb(255, 25, 0);
+    /* padding: 8px;     */
+    color: wheat;
+
+}

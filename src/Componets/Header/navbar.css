@@ -1,0 +1,23 @@
+#container{
+    margin: 10px;
+    padding: 16px;
+    box-shadow: 4px 3px 2px 3px black;
+    text-align: center;
+    background-image: repeating-linear-gradient(to left,rgb(54, 54, 161),rgb(232, 171, 56),rgb(228, 129, 146));
+
+}
+span{
+    margin-left: 250px;
+}
+span:hover{
+cursor: pointer;
+color: rgb(249, 249, 249);
+text-shadow: 2px 3px 4px black;
+
+}
+input{
+    margin-left: 15px;
+}
+input:focus{
+    box-shadow: 2px 3px 4px 2px black;
+}

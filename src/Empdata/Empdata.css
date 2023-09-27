@@ -1,0 +1,9 @@
+#main{
+     /* display: grid; */
+     /* position: absolute; */
+     display: inline;
+     /* margin: 20px; */
+     display: flex;
+     flex-direction: row;
+     width: 300px;
+}

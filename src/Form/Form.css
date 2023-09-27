@@ -1,0 +1,37 @@
+ul{
+    border: 1px solid;
+    background-color: rgb(181, 200, 203);
+    width: 380px;
+    box-shadow: 3px 2px 3px 0px black;
+
+}
+li{
+    list-style: none;
+    margin: 9px;
+    margin-left: -10px;
+
+    padding: 5px;
+    /* background-color: antiquewhite; */
+    background-color: hsl(184, 96%, 56%);
+    box-shadow: 3px 2px 3px 2px black;
+}
+form{
+    margin: 40px 35%;
+}
+#reset:hover{
+     background-color: rgba(244, 7, 7, 0.904);
+}
+#submit:hover{
+    background-color: rgb(0, 255, 38);
+}
+#ul {
+   margin-left: 35% !important;
+}
+input::placeholder{
+    /* user-select: none; */
+    color: rgb(1, 1, 1);
+}
+#result{
+    display: grid;
+    grid-template-rows: 500px 100px;
+}
